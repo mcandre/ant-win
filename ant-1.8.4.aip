@@ -1832,7 +1832,7 @@
     <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiEnvComponent">
-    <ROW Environment="PATH" Name="=-PATH" Value="[~];[APPDIR]\bin" Component_="BaseFilterReader.html"/>
+    <ROW Environment="PATH" Name="=-Path" Value="[~];[APPDIR]bin" Component_="BaseFilterReader.html"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
     <ROW Name="ant.exe" SourcePath="ant.ico" Index="0"/>
