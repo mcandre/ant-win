@@ -1,5 +1,11 @@
 # ant-win - Windows installer for ant
 
+# DEPRECATED
+
+Windows users are advised to install ant via [Chocolatey](http://chocolatey.org/):
+
+    cinst apache.ant
+
 # ABOUT
 
 ant-win takes a folder of ant binaries and wraps them in a basic MSI installer that adds `ant.exe` to `PATH`.
